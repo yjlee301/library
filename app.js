@@ -6,16 +6,16 @@ document.addEventListener("DOMContentLoaded", function () {
     // 가상의 책 데이터 (books.json 대신 사용)
     const books = [
         {
-            title: "책 제목 1",
+            title: "인생을 숫자로 말할 수 있나요?",
             author: "저자 1",
-            keywords: ["키워드1", "키워드2"],
-            category: "카테고리 1",
+            keywords: ["진로", "직업"],
+            category: "그림책",
         },
         {
-            title: "책 제목 2",
+            title: "선량한 차별주의자",
             author: "저자 2",
             keywords: ["키워드3", "키워드4"],
-            category: "카테고리 2",
+            category: "독서토론", "중학교"
         },
         // 추가 책 정보를 계속해서 입력합니다.
     ];
