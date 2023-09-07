@@ -1,0 +1,50 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+input[type="text"] {
+    padding: 0.5rem;
+    width: 80%;
+    margin: 1rem auto;
+    display: block;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1rem;
+    width: 200px;
+}
+
+.book-card h2 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.book-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
